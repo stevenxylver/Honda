@@ -1,0 +1,32 @@
+import React from "react";
+import "../../styles/become-driver.css";
+import { Container, Row, Col } from "reactstrap";
+
+// import driverImg from "../../assets/all-images/toyota-offer-2.png";
+
+const BecomeDriverSection = () => {
+  return (
+    <section className="become__driver">
+      <Container>
+        <Row>
+          <Col lg="6" md="6" sm="12" className="become__driver-img">
+          <iframe width="100%" height="130%"  src="https://www.youtube.com/embed/w7pgDpsCZ2E" frameborder="0"  title="YouTube video player" allowfullscreen="true"></iframe>
+          </Col>
+          
+
+          <Col lg="6" md="6" sm="12">
+            <h2 className="section__title become__driver-title">
+              Dapat kan Promo & Info yang Menarik .
+            </h2>
+
+            <button className="btn become__driver-btn mt-4">
+              Hubungi Saya
+            </button>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+};
+
+export default BecomeDriverSection;
