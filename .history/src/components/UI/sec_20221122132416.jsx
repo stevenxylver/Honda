@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
 import aboutImg from "../../assets/all-images/ava-3.jpg";
 
-const AboutSection = ({ aboutClass }) => {
+const sec = ({ aboutClass }) => {
   return (
     <section
       className="about__section"

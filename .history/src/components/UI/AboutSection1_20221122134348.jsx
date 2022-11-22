@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../../styles/about-section.css";
+import "../../styles/about-section1.css";
 import aboutImg from "../../assets/all-images/ava-3.jpg";
 
 const AboutSection = ({ aboutClass }) => {

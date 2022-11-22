@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../../styles/about-section.css";
+import "../../styles/about-section1.css";
 import aboutImg from "../../assets/all-images/ava-3.jpg";
 
-const AboutSection = ({ aboutClass }) => {
+const AboutSection1 = ({ aboutClass }) => {
   return (
     <section
-      className="about__section"
+      className="about__section1"
       style={
         aboutClass === "aboutPage"
           ? { marginTop: "0px" }
@@ -16,7 +16,7 @@ const AboutSection = ({ aboutClass }) => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className="about__section-content">
+            <div className="about__section1-content">
               <h4 className="section__subtitle">Halo</h4>
               <h2 className="section__title">Nama Saya Sarah</h2>
               <p className="section__description">
@@ -42,4 +42,4 @@ const AboutSection = ({ aboutClass }) => {
   );
 };
 
-export default AboutSection;
+export default AboutSection1;

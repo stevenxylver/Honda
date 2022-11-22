@@ -2,7 +2,7 @@ import React from "react";
 
 import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
-import AboutSection1 from "../components/UI/AboutSection1";
+import Sec from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 
@@ -14,7 +14,7 @@ const About = () => {
   return (
     <Helmet title="About">
       <CommonSection title="About Us" />
-      <AboutSection1 aboutClass="aboutPage" />
+      <Sec aboutClass="aboutPage" />
 
       <section className="about__page-section">
         <Container>

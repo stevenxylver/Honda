@@ -41,10 +41,10 @@ box-shadow: 5px 5px 15px -5px #7c8a97;
 }
 
 @media only screen and (max-width: 576px) {
-  .about__section {
+  .saru__section {
     margin-top: 280px;
   }
-  .about__section-content{
-    margin-top: -250px;
+  .saru__section-content{
+    margin-top: -50px;
   }
 }

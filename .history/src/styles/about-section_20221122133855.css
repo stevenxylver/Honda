@@ -36,8 +36,8 @@ box-shadow: 5px 5px 15px -5px #7c8a97;
   .about__img {
     margin-top: 30px;
     text-align: center;
+    margin-top: -250px;
   }
-  
 }
 
 @media only screen and (max-width: 576px) {
@@ -45,6 +45,5 @@ box-shadow: 5px 5px 15px -5px #7c8a97;
     margin-top: 280px;
   }
   .about__section-content{
-    margin-top: -250px;
   }
 }

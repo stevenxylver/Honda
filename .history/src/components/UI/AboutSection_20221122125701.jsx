@@ -31,7 +31,7 @@ const AboutSection = ({ aboutClass }) => {
           </Col>
 
           <Col md={{ offset: 3, size: 3
-      }}>
+      }} sm="12" >
             <div className="about__img">
               <img src={aboutImg} alt="" className="about"/>
             </div>

@@ -2,20 +2,54 @@ import React from "react";
 
 import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
-import AboutSection1 from "../components/UI/AboutSection1";
+import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
-
+import aboutImg from "../../assets/all-images/ava-3.jpg";
 import driveImg from "../assets/all-images/drive.jpg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
+import "../../styles/about-section.css";
 
 const About = () => {
   return (
     <Helmet title="About">
       <CommonSection title="About Us" />
-      <AboutSection1 aboutClass="aboutPage" />
+      <AboutSection aboutClass="aboutPage" />
+      <section
+      className="about__section"
+      style={
+        aboutClass === "aboutPage"
+          ? { marginTop: "0px" }
+          : { marginTop: "280px" }
+      }
+    >
+      <Container>
+        <Row>
+          <Col lg="6" md="6">
+            <div className="about__section-content">
+              <h4 className="section__subtitle">Halo</h4>
+              <h2 className="section__title">Nama Saya Sarah</h2>
+              <p className="section__description">
+              Perkenalkan Saya Sarah, Sales Counter dari Dealer Honda Tangerang. Saat ini saya telah mengabdikan diri saya pada Honda Tangerang selama 9 Tahun. Dapat Saya pastikan Anda akan mendapatkan pelayanan terbaik dari kami baik saat transaksi maupun service after-sales. Anda dapat menghubungi saya melalui kontak yang tesedia pada website ini, untuk informasi lebih lanjut tentang pelayanan dari dealer kami.
+              </p>
 
+             
+            </div>
+          {/* </Col>
+          <Col lg="3" md="6"> */}
+          
+          </Col>
+
+          <Col md={{ offset: 3, size: 3
+      }}>
+            <div className="about__img">
+              <img src={aboutImg} alt="" className="about"/>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
       <section className="about__page-section">
         <Container>
           <Row>
