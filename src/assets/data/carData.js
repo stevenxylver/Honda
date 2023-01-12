@@ -10,6 +10,7 @@ import img10 from "../all-images/cars-img/hondacityha.webp";
 import img11 from "../all-images/cars-img/hondacity.webp";
 import img12 from "../all-images/cars-img/hondaaccord.webp";
 import img15 from "../all-images/cars-img/hondaodisey-2.webp";
+import img16 from "../all-images/cars-img/satya.webp";
 
 
 
@@ -17,13 +18,61 @@ import img15 from "../all-images/cars-img/hondaodisey-2.webp";
 
 const carData = [
   {
+    id: 35,
+    brand: "Honda Satya E CVT",
+    rating: 102,
+    carName: "Honda Satya E CVT",
+    imgUrl: img16,
+    model: "1197 CC",
+    price:  "Rp 189.700.000",
+    speed: "119 HP",
+    gps: "GPS Navigation",
+    seatType: "5 Kursi",
+    automatic: "Manual",
+    description:
+      " Honda Satya (juga dikenal sebagai Honda Brio) adalah mobil kompak yang diproduksi oleh pembuat mobil Jepang Honda. Ini pertama kali diperkenalkan pada tahun 2011, dan terutama dirancang dan dibangun untuk pasar Asia. Satya adalah mobil kecil hemat bahan bakar dengan desain kompak dan ramah kota. Ini fitur mesin empat silinder 1.2 liter, dan tersedia dalam transmisi manual dan otomatis. Itu juga dilengkapi dengan fitur-fitur seperti power windows, keyless entry, dan sistem stereo. Serta memiliki interior yang luas dan desain eksterior yang modern dan dinamis.",
+  },
+  {
+    id: 6,
+    brand: "Honda Civic RS CVT",
+    rating: 119,
+    carName: "Honda Civic RS CVT",
+    imgUrl: img01,
+    model: "1498 CC",
+    price: "Rp 601.400.000",
+    speed: "176 HP",
+    gps: "GPS Navigation",
+    seatType: "5 Kursi",
+    automatic: "Automatic",
+    description:
+      " Honda Civic RS 2022 adalah 5 Seater Sedan yang tersedia dengan harga Rp 586,9 Juta di Indonesia. Ini tersedia dalam 4 warna, 1 varian, 1 pilihan mesin, dan 1 opsi transmisi: CVT di Indonesia. Dimensi Civic RS adalah 4678 mm L x 1802 mm W x 1415 mm H. Cicilan bulanan terendah dimulai dari Rp 58 Million (selama 60 bulan). Pesaing terdekat Honda Civic RS adalah 6 , 3 Sedan, Corolla Altis dan Ioniq.      .",
+  },
+
+  
+  {
+    id: 34,
+    brand: "Honda City E CVT",
+    rating: 102,
+    carName: "Honda City E CVT",
+    imgUrl: img11,
+    model: "1498 CC",
+    price:  "Rp 373.900.000",
+    speed: "119 HP",
+    gps: "GPS Navigation",
+    seatType: "5 Kursi",
+    automatic: "Automatic",
+    description:
+      " Honda City e adalah model Honda City, yang merupakan mobil kompak yang diproduksi oleh Honda Motor Company. Ini adalah mobil hemat bahan bakar dan penuh fitur yang populer di berbagai pasar di seluruh dunia. Model Honda City e dilengkapi dengan motor listrik sebagai sumber tenaga dan tersedia di beberapa wilayah tertentu..",
+  },
+
+  {
     id: 1,
     brand: "WR-V 1,5 E CVT",
     rating: 112,
     carName: "WR-V 1,5 E CVT",
     imgUrl: img06,
     model: "1498 CC",
-    price: "Rp 271.900.000",
+    price: "Rp 279.400.000",
     speed: "119 HP",
     gps: "GPS Navigation",
     seatType: "5 Kursi",
@@ -39,7 +88,7 @@ const carData = [
     carName: "Honda BR-V S MT",
     imgUrl: img02,
     model: "1497 CC",
-    price:  "Rp 281.100.000",
+    price:  "Rp 287.800.000",
     speed: "119 HP",
     gps: "GPS Navigation",
     seatType: "7 Kursi",
@@ -55,7 +104,7 @@ const carData = [
     carName: "Honda HR-V 1.5 S CVT",
     imgUrl: img03,
     model: "1498 CC",
-    price:"Rp 364.900.000",
+    price:"Rp 375.900.000",
     speed: "175 HP",
     gps: "GPS Navigation",
     seatType: "5 Kursi",
@@ -64,21 +113,7 @@ const carData = [
       " Honda HRV 2022 adalah 5 Seater Crossover yang tersedia dalam daftar harga Rp 364,9 - 515,9 Juta di Indonesia. Ini tersedia dalam 6 warna, 4 varian, 1 pilihan mesin, dan 1 opsi transmisi: CVT di Indonesia. Dimensi HRV adalah 4385 mm L x 1790 mm W x 1590 mm H. Lebih dari 74 pengguna telah memberikan penilaian untuk HRV berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 26 Million (selama 60 bulan). Pesaing terdekat Honda HRV adalah CRV, Creta, BRV dan Xpander.",
   },
 
-  {
-    id: 4,
-    brand: "Honda Brio",
-    rating: 102,
-    carName: "Honda Brio SATYA E MT",
-    imgUrl: img04,
-    model: "1498 CC",
-    price: "Rp 171.600.000",
-    speed: "89 HP",
-    gps: "GPS Navigation",
-    seatType: "5 Kursi",
-    automatic: "Automatic",
-    description:
-      " Honda Brio 2022 adalah 5 Seater Hatchback yang tersedia dalam daftar harga Rp 157,9 - 237,4 Juta di Indonesia. Ini tersedia dalam 8 warna, 7 varian, 1 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Dimensi Brio adalah 3815 mm L x 1680 mm W x 1485 mm H. Lebih dari 223 pengguna telah memberikan penilaian untuk Brio berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 8 Million (selama 60 bulan). Pesaing terdekat Honda Brio adalah Agya, Ayla, Yaris dan Ignis..",
-  },
+  
 
   {
     id: 5,
@@ -87,7 +122,7 @@ const carData = [
     carName: "Honda CR-V 2.0 CVT",
     imgUrl: img05,
     model: "1997 CC",
-    price: "Rp 515.900.000",
+    price: "Rp 525.300.000",
     speed: "187 HP",
     gps: "GPS Navigation",
     seatType: "7 Kursi",
@@ -96,21 +131,7 @@ const carData = [
       "Honda CRV 2022 adalah 5 dan 7 Seater Crossover yang tersedia dalam daftar harga Rp 515,9 - 668,4 Juta di Indonesia. Ini tersedia dalam 4 warna, 4 varian, 2 pilihan mesin, dan 1 opsi transmisi: CVT di Indonesia. Dimensi CRV adalah 4623 mm L x 1855 mm W x 1657 mm H. Lebih dari 65 pengguna telah memberikan penilaian untuk CRV berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 40 Million (selama 60 bulan). Pesaing terdekat Honda CRV adalah HRV, Kijang Innova, Pajero Sport dan Fortuner.      .",
   },
 
-  {
-    id: 6,
-    brand: "Honda Civic RS",
-    rating: 119,
-    carName: "Honda Civic RS",
-    imgUrl: img01,
-    model: "1498 CC",
-    price: "Rp 271.900.000",
-    speed: "176 HP",
-    gps: "GPS Navigation",
-    seatType: "5 Kursi",
-    automatic: "Automatic",
-    description:
-      " Honda Civic RS 2022 adalah 5 Seater Sedan yang tersedia dengan harga Rp 586,9 Juta di Indonesia. Ini tersedia dalam 4 warna, 1 varian, 1 pilihan mesin, dan 1 opsi transmisi: CVT di Indonesia. Dimensi Civic RS adalah 4678 mm L x 1802 mm W x 1415 mm H. Cicilan bulanan terendah dimulai dari Rp 58 Million (selama 60 bulan). Pesaing terdekat Honda Civic RS adalah 6 , 3 Sedan, Corolla Altis dan Ioniq.      .",
-  },
+  
 
   {
     id: 7,
@@ -135,7 +156,7 @@ const carData = [
     carName: "Honda City Hatchback RS MT",
     imgUrl: img10,
     model: "1498 CC",
-    price:  "Rp 333.600.000",
+    price:  "Rp 343.600.000",
     speed: "119 HP",
     gps: "GPS Navigation",
     seatType: "5 Kursi",
@@ -167,7 +188,7 @@ const carData = [
     carName: "Honda Accord",
     imgUrl: img12,
     model: "1498 cc",
-    price: "Rp 772.900.000",
+    price: "Rp 787.300.000",
     speed: "187 HP",
     gps: "GPS Navigation",
     seatType: "5 Kursi",
@@ -192,22 +213,7 @@ const carData = [
     description:
       " Honda Odyssey yang menawarkan kenyamanan dan keamanan berkendara yang sesungguhnya dalam setiap perjalanan. Mesin i-Vtec performa tinggi yang didukung oleh transmisi CVT with Earth Dreams Technology memberikan kepuasan selama perjalanan anda. Tunggu apalagi, segera hubungi kami atau bisa atur jadwal test kendaraan.Carro hadir untuk memberikan pelayanan pengiriman terbaik dan teraman yang menjangkau seluruh area Indonesia. Mobil akan diantarkan sesuai dengan kota tujuan Anda..",
   },
-  {
-  id: 13,
-  brand: "Honda Brio SATYA S MT",
-  rating: 102,
-  carName: "Honda Brio SATYA S MT",
-  imgUrl: img04,
-  model: "1498 CC",
-  price: "Rp 157.900.000",
-  speed: "89 HP",
-  gps: "GPS Navigation",
-  seatType: "5 Kursi",
-  automatic: "Automatic",
-  description:
-    " Honda Brio 2022 adalah 5 Seater Hatchback yang tersedia dalam daftar harga Rp 157,9 - 237,4 Juta di Indonesia. Ini tersedia dalam 8 warna, 7 varian, 1 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Dimensi Brio adalah 3815 mm L x 1680 mm W x 1485 mm H. Lebih dari 223 pengguna telah memberikan penilaian untuk Brio berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 8 Million (selama 60 bulan). Pesaing terdekat Honda Brio adalah Agya, Ayla, Yaris dan Ignis..",
-  },
-
+  
   {
     id: 19,
     brand: "Honda Brio E CVT",
@@ -223,6 +229,7 @@ const carData = [
     description:
       " Honda Brio 2022 adalah 5 Seater Hatchback yang tersedia dalam daftar harga Rp 157,9 - 237,4 Juta di Indonesia. Ini tersedia dalam 8 warna, 7 varian, 1 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Dimensi Brio adalah 3815 mm L x 1680 mm W x 1485 mm H. Lebih dari 223 pengguna telah memberikan penilaian untuk Brio berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 8 Million (selama 60 bulan). Pesaing terdekat Honda Brio adalah Agya, Ayla, Yaris dan Ignis..",
     },
+    
 
     {
       id: 20,
@@ -231,7 +238,7 @@ const carData = [
       carName: "Honda Brio RS MT",
       imgUrl: img04,
       model: "1498 CC",
-      price: "Rp 217.600.000",
+      price: "Rp 223.100.000",
       speed: "89 HP",
       gps: "GPS Navigation",
       seatType: "5 Kursi",
@@ -247,7 +254,7 @@ const carData = [
         carName: "Honda Brio RS CVT",
         imgUrl: img04,
         model: "1498 CC",
-        price: "Rp 227.600.000",
+        price: "Rp 233.100.000",
         speed: "89 HP",
         gps: "GPS Navigation",
         seatType: "5 Kursi",
@@ -263,7 +270,7 @@ const carData = [
           carName: "Brio RS URBANITE MT",
           imgUrl: img04,
           model: "1498 CC",
-          price: "Rp 227.400.000",
+          price: "Rp 233.900.000",
           speed: "89 HP",
           gps: "GPS Navigation",
           seatType: "5 Kursi",
@@ -279,7 +286,7 @@ const carData = [
             carName: "Brio RS URBANITE CVT",
             imgUrl: img04,
             model: "1498 CC",
-            price: "Rp 237.400.000",
+            price: "Rp 243.900.000",
             speed: "89 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -287,6 +294,21 @@ const carData = [
             description:
               " Honda Brio 2022 adalah 5 Seater Hatchback yang tersedia dalam daftar harga Rp 157,9 - 237,4 Juta di Indonesia. Ini tersedia dalam 8 warna, 7 varian, 1 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Dimensi Brio adalah 3815 mm L x 1680 mm W x 1485 mm H. Lebih dari 223 pengguna telah memberikan penilaian untuk Brio berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 8 Million (selama 60 bulan). Pesaing terdekat Honda Brio adalah Agya, Ayla, Yaris dan Ignis..",
             },
+            {
+  id: 13,
+  brand: "Honda Brio SATYA S MT",
+  rating: 102,
+  carName: "Honda Brio SATYA S MT",
+  imgUrl: img16,
+  model: "1498 CC",
+  price: "Rp 159.100.000",
+  speed: "89 HP",
+  gps: "GPS Navigation",
+  seatType: "5 Kursi",
+  automatic: "Automatic",
+  description:
+    " Honda Brio 2022 adalah 5 Seater Hatchback yang tersedia dalam daftar harga Rp 157,9 - 237,4 Juta di Indonesia. Ini tersedia dalam 8 warna, 7 varian, 1 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Dimensi Brio adalah 3815 mm L x 1680 mm W x 1485 mm H. Lebih dari 223 pengguna telah memberikan penilaian untuk Brio berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 8 Million (selama 60 bulan). Pesaing terdekat Honda Brio adalah Agya, Ayla, Yaris dan Ignis..",
+  },
 
             {
             id: 24,
@@ -295,7 +317,7 @@ const carData = [
             carName: "Honda BR-V E MT",
             imgUrl: img02,
             model: "1497 CC",
-            price:  "Rp 295.300.000",
+            price:  "Rp 302.000.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "7 Kursi",
@@ -311,7 +333,7 @@ const carData = [
             carName: "Honda BR-V E CVT",
             imgUrl: img02,
             model: "1497 CC",
-            price:  "Rp 305.300.000",
+            price:  "Rp 312.000.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "7 Kursi",
@@ -320,13 +342,28 @@ const carData = [
               " Honda BRV 2022 adalah 7 Seater SUV yang tersedia dalam daftar harga Rp 281,1 - 348,6 Juta di Indonesia. Ini tersedia dalam 5 warna, 5 varian, 1 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Dimensi BRV adalah 4456 mm L x 1735 mm W x 1666 mm H. Lebih dari 55 pengguna telah memberikan penilaian untuk BRV berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 15 Million (selama 60 bulan). Pesaing terdekat Honda BRV adalah Xpander, HRV, Mobilio dan Rush.      .",
           },
           {
+    id: 4,
+    brand: "Honda Brio",
+    rating: 102,
+    carName: "Honda Brio SATYA E MT",
+    imgUrl: img16,
+    model: "1498 CC",
+    price: "Rp 173.200.000",
+    speed: "89 HP",
+    gps: "GPS Navigation",
+    seatType: "5 Kursi",
+    automatic: "Automatic",
+    description:
+      " Honda Brio 2022 adalah 5 Seater Hatchback yang tersedia dalam daftar harga Rp 157,9 - 237,4 Juta di Indonesia. Ini tersedia dalam 8 warna, 7 varian, 1 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Dimensi Brio adalah 3815 mm L x 1680 mm W x 1485 mm H. Lebih dari 223 pengguna telah memberikan penilaian untuk Brio berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Cicilan bulanan terendah dimulai dari Rp 8 Million (selama 60 bulan). Pesaing terdekat Honda Brio adalah Agya, Ayla, Yaris dan Ignis..",
+  },
+          {
             id: 26,
             brand: "Honda BR-V PRES CVT",
             rating: 102,
             carName: "Honda BR-V PRES CVT",
             imgUrl: img02,
             model: "1497 CC",
-            price:  "Rp 327.600.000",
+            price:  "Rp 335.000.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "7 Kursi",
@@ -341,7 +378,7 @@ const carData = [
             carName: "Honda BR-V PRES with Honda Sensing CVT",
             imgUrl: img02,
             model: "1497 CC",
-            price:  "Rp 348.600.000",
+            price:  "Rp 355.000.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "7 Kursi",
@@ -357,7 +394,7 @@ const carData = [
             carName: "Honda City Hatchback RS CVT",
             imgUrl: img10,
             model: "1498 CC",
-            price:  "Rp 343.600.000",
+            price:  "Rp 353.600.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -373,7 +410,7 @@ const carData = [
             carName: "Honda City Hatchback RS HS CVT",
             imgUrl: img10,
             model: "1498 CC",
-            price:  "Rp 362.600.000",
+            price:  "Rp 373.600.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -389,7 +426,7 @@ const carData = [
             carName: "Honda HR-V 1.5 E CVT",
             imgUrl: img03,
             model: "1498 CC",
-            price:"Rp 384.900.000",
+            price:"Rp 395.900.000",
             speed: "175 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -400,12 +437,12 @@ const carData = [
 
           {
             id: 16,
-            brand: "Honda HR-V 1.5 E CVT",
+            brand: "Honda HR-V 1.5 SE CVT",
             rating: 132,
-            carName: "Honda HR-V 1.5 E CVT",
+            carName: "Honda HR-V 1.5 SE CVT",
             imgUrl: img03,
             model: "1498 CC",
-            price:"Rp 405.100.000",
+            price:"Rp 416.100.000",
             speed: "175 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -421,7 +458,7 @@ const carData = [
             carName: "Honda HR-V 1.5 Turbo RS CVT",
             imgUrl: img03,
             model: "1498 CC",
-            price:"Rp 515.900.000",
+            price:"Rp 529.900.000",
             speed: "175 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -436,7 +473,7 @@ const carData = [
             carName: "Honda CR-V 1.5 CVT",
             imgUrl: img05,
             model: "1997 CC",
-            price: "Rp 590.900.000",
+            price: "Rp 606.300.000",
             speed: "187 HP",
             gps: "GPS Navigation",
             seatType: "7 Kursi",
@@ -451,7 +488,7 @@ const carData = [
             carName: "Honda CR-V 1.5 PRES CVT",
             imgUrl: img05,
             model: "1997 CC",
-            price: "Rp 653.400.000",
+            price: "Rp 669.600.000",
             speed: "187 HP",
             gps: "GPS Navigation",
             seatType: "7 Kursi",
@@ -467,7 +504,7 @@ const carData = [
             carName: "Honda CR-V BLACK EDITION CVT",
             imgUrl: img05,
             model: "1997 CC",
-            price: "Rp 668.400.000",
+            price: "Rp 684.600.000",
             speed: "187 HP",
             gps: "GPS Navigation",
             seatType: "7 Kursi",
@@ -483,7 +520,7 @@ const carData = [
             carName: "WR-V 1,5 RS CVT WITH HONDA SENSING",
             imgUrl: img06,
             model: "1498 CC",
-            price: "Rp 309.900.000",
+            price: "Rp 317.400.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -499,7 +536,7 @@ const carData = [
             carName: "WR-V 1,5 RS CVT",
             imgUrl: img06,
             model: "1498 CC",
-            price: "Rp 289.900.000",
+            price: "Rp 297.400.000",
             speed: "119 HP",
             gps: "GPS Navigation",
             seatType: "5 Kursi",
@@ -508,7 +545,7 @@ const carData = [
               " Crossover terbaru dari Honda, WRV, hadir dengan 1 varian. Varian tertinggi hadir dengan mesin Petrol 1198 CC, yang mampu menghasilkan tenaga hingga 90 hp dan torsi puncak 110 Nm. WRV 1.2L Petrol berkapasitas 5-penupang dibekali juga dengan transmisi 5-Speed Manual. Sistem keamanannya dibekali Central Locking & Power Door Locks.      ",
           },
           
-
+          
 ];
 
 

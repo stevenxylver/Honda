@@ -65,7 +65,9 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
+              <a href="https://www.google.com/maps?ll=-6.222955,106.528969&z=16&t=m&hl=en&gl=ID&mapclient=embed&cid=15133213297495267688" className="maps" target="_blank" rel="noreferrer">
               <p className="office__info">Jl. Raya Serang No.KM14, Dukuh, Kec. Cikupa, Tangerang, Banten 15710</p>
+              </a>
               <p className="office__info">Phone: +62 812-1222-3099</p>
 
               <p className="office__info">Email: evas24453@gmail.com </p>
