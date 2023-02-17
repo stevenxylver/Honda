@@ -17,6 +17,7 @@ import steer from "../assets/all-images/steering-2-line.png"
 import consul from "../assets/all-images/message-2-line.png"
 import gift from "../assets/all-images/gift-2-fill.png"
 import BlogList from "../components/UI/BlogList";
+import Browsur from "../components/UI/Browsur";
 
 const Home = () => {
   return (
@@ -76,6 +77,19 @@ const Home = () => {
         </Container>
       </section> */}
       {/* =========== car offer section ============= */}
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-4 text-center">
+              <h6 className="section__subtitle">Events</h6>
+              <h2 className="section__title">Get Promo</h2>
+            </Col>
+
+            <Browsur />
+          </Row>
+        </Container>
+      </section>
       <section>
         <Container>
           <Row>

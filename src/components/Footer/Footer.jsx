@@ -71,8 +71,10 @@ const Footer = () => {
               <p className="office__info">Phone: +62 812-1222-3099</p>
 
               <p className="office__info">Email: evas24453@gmail.com </p>
+              <a href="https://forms.gle/iUuDYY9LUUnVn2xM7" className="maps" target="_blank" rel="noreferrer">
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">Testdrive Honda</p>
+              </a>
             </div>
           </Col>
 
